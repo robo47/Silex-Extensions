@@ -39,7 +39,7 @@ class PredisExtensionTest extends \PHPUnit_Framework_TestCase
     
     /**
      *
-     * @expectedException Predis\ConnectionException
+     * @expectedException Predis\Connection\ConnectionException
      */
     public function testFailedConnection()
     {
