@@ -6,4 +6,5 @@ phps:
   
 before_script:
   - "sh vendors.sh"
+  - "wget silex-project.org/get/silex.phar"
   - "sh bin/travis-init.sh"
