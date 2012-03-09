@@ -12,7 +12,7 @@ class PredisExtensionTest extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
-        if (!is_dir(__DIR__ . '/../../../vendor/predis/lib')) {
+        if (!class_exists('Predis\\Client')) {
             $this->markTestSkipped('Predis was not installed.');
         }
     }

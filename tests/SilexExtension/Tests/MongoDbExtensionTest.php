@@ -12,7 +12,7 @@ class MongoDbExtensionTest extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
-        if (!is_dir(__DIR__ . '/../../../vendor/mongodb/lib')) {
+        if (!class_exists('Doctrine\\MongoDB\\Connection')) {
             $this->markTestSkipped('Doctrine\MongoDB was not installed.');
         }
     }
