@@ -1,5 +1,3 @@
-sudo apt-get install libmemcached-dev
-
 # installing memcache extension
 curl -s http://pecl.php.net/get/memcache-2.2.6.tgz > memcache-2.2.6.tgz
 tar -xzf memcache-2.2.6.tgz
@@ -16,5 +14,3 @@ wget silex-project.org/get/silex.phar
 
 wget http://getcomposer.org/composer.phar
 php composer.phar install
-
-phpenv rehash

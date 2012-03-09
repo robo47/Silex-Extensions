@@ -12,7 +12,7 @@ class MemcacheExtensionTest extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
-        if (!class_exists('Memcached')) {
+        if (!class_exists('Memcache')) {
             $this->markTestSkipped('Memcached is not loaded.');
         }
     }
