@@ -5,4 +5,5 @@ phps:
   - 5.4
   
 before_script:
+  - "sh vendor.sh"
   - "sh bin/travis-init.sh"

@@ -1,4 +1,4 @@
-sh vendor.sh
+
 
 
 # installing php5 memcached
