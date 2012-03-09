@@ -1,5 +1,5 @@
 {
-    "hash": "f0e82d3447234f59b08acf0868defdc3",
+    "hash": "5322ad016699a4eaca7c2538712f4332",
     "packages": [
         {
             "package": "doctrine/common",
@@ -36,9 +36,19 @@
             "source-reference": "master"
         },
         {
+            "package": "mandango/mondator",
+            "version": "master",
+            "source-reference": "master"
+        },
+        {
             "package": "predis/predis",
             "version": "dev-master",
             "source-reference": "785670dcf77654be0e63be8ff524c375a59498e7"
+        },
+        {
+            "package": "symfony/class-loader",
+            "version": "dev-master",
+            "source-reference": "8bceaa2f1fed52f6285b2cea39e7ae37fbea1c9b"
         },
         {
             "package": "symfony/config",
