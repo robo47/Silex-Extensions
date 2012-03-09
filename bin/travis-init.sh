@@ -2,7 +2,7 @@
 
 
 # installing php5 memcached
-apt-get install php5-memcached
+sudo apt-get install php5-memcached
 
 # installing mongo extension
 curl -s http://pecl.php.net/get/mongo-1.2.9.tgz > mongo-1.2.9.tgz
