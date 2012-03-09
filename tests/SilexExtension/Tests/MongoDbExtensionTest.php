@@ -86,9 +86,10 @@ class MongoDbExtensionTest extends \PHPUnit_Framework_TestCase
         
         $mongo = $app['mongodb']->getMongo();
         $reflect  = new \ReflectionClass($mongo);
-        $property = $reflect->getProperty('persistent');
+        
+        $property = $reflect->getProperty('connected');
         $property->setAccessible(true);
-        $this->assertSame('c83d9d59bf24ae3a6dc5a30cb47ebbba', $property->getValue($mongo));
+        $this->assertFalse($property->getValue($mongo));
     }
     
     
